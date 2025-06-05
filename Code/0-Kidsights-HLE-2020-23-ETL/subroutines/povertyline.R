@@ -1,5 +1,6 @@
 
-povertyline<-function(yr, famsize, guidelines=readr::read_rds(file = "C:/Users/marcu/Dropbox/UNMC/phase-2/data-files/intermediate-files/federal_poverty_guidelines_5June2024.rds")){
+povertyline<-function(yr, famsize, path){
+  guidelines = readr::read_rds(file = file.path(path,"data-files/intermediate-files/federal_poverty_guidelines_5June2024.rds"))
   
   #yr - Numberic vector 
   #famsize = Numeric vector of family size
