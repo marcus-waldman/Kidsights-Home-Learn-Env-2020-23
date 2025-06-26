@@ -21,7 +21,7 @@
       
 
       # Set working directories
-      root = "C:/Users/waldmanm"
+      root = #"C:/Users/waldmanm"
              #"C:/Users/marcu"
              #"D:/"
       path =  paste0(root,"/Dropbox/UNMC/phase-2")

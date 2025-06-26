@@ -14,8 +14,8 @@
     origwd = getwd()
 
     # Set working directories
-    root = "C:/Users/waldmanm"
-    #"C:/Users/marcu"
+    root = #"C:/Users/waldmanm"
+    "C:/Users/marcu"
     #"D:/"
     path =  paste0(root,"/Dropbox/UNMC/phase-2")
     intermediate_path = paste0(path,"/data-files/intermediate-files")
@@ -65,7 +65,11 @@
       "CQFA010", #Someone to turn to for emot. support
       "CQFB013", "CQFB014", "CQFB015", "CQFB016", #Anxiety and depression variables, 
       "CQFB007", # Childcare, 
-      paste0("CQR007_",1:8)
+      paste0("CQR007_",1:8), 
+      "CQR008", #related to child 
+      "CQFA_1", #marital status
+      "CQR012", "CQR013", "CQR014", "CQR015", "CQR016", #physical/developmental delays
+      "CQFA_2"
     )
     
     # Specify analytic variables
